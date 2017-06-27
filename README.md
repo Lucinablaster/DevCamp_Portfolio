@@ -38,3 +38,11 @@ For more information on how to use Cloud9, visit http://docs.c9.io for our docum
 http://www.youtube.com/user/c9ide.
 
 Good luck with the coding!
+
+-=====================-(Note while using C9)-=============================-
+- Because Jordan Hudgens is using a Mac or whatever he is using, in order to
+ get the browser like he does is a little more complicated than just 'rails s'.
+ You have to do 'sudo service postgresql start' command, then do,
+ 'rails s -b $IP -p $PORT'. Then preview and you should be able to access the 
+ same things as he does. So during the byebug thing, you can commit via preview.
+ 
