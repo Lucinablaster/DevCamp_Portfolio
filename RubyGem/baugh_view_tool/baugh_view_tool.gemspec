@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Jordan Hudgens"]
   spec.email         = ["jordan@devcamp.com"]
 
-  spec.summary       = %q{Various view specific methods for applications I use.}
-  spec.description   = %q{Provides generated HTML data for Rails appliations.}
+  spec.summary       = %q{"Various view specific methods for applications I use."}
+  spec.description   = %q{"Provides generated HTML data for Rails appliations."}
   spec.homepage      = "https://devcamp.com"
   spec.license       = "MIT"
     spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
