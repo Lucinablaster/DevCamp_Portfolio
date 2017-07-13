@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+BaughViewTool::Renderer.copyright 'Tyler Baugh', 'All rights reserved'
+```
 
 ## Development
 
