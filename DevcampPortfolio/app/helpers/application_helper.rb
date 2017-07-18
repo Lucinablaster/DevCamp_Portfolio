@@ -17,6 +17,6 @@ module ApplicationHelper
   end
 
   def copyright_generator
-    BaughViewTool::Renderer.copyright 'Jordan Hudgens', 'All rights reserved'
+    BaughViewTool::Renderer.copyright 'Tyler Baugh', 'All rights reserved'
   end
 end
