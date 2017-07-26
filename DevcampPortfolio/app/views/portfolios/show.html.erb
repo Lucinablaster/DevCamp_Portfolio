@@ -1,15 +1,13 @@
-<% binding.pry %>
+<%= image_tag @portfolio_item.main_image %>
 
-<%= image_tag @porfolio_item.main_image %>
+<h1><%= @portfolio_item.title %></h1>
 
-<h1><%= @porfolio_item.title %></h1>
+<em><%= @portfolio_item.subtitle %></em>
 
-<en><%= @porfolio_item.subtitle %></en>
+<p><%= @portfolio_item.body %></p>
 
-<p><%= @porfolio_item.body %></p>
+<h2>Technologies Used:</h2>
 
-<h2> Technologyies Used:</h2>
-
-<%= @porfolio_item.technologies.each do |t| %>
+<% @portfolio_item.technologies.each do |t| %>
 <p><%= t.name %></p>
-<%= end %>
+<% end %>
